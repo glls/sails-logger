@@ -1,5 +1,7 @@
 # sails-logger
 
+## Warning: WIP
+
 a [Sails](http://sailsjs.org) application to log and visualise events from network clients
 
 * nodejs with Sails
