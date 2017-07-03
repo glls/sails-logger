@@ -35,7 +35,7 @@ module.exports = {
       required: true
     },
     //Action: method of the API, POST, GET, DELETE
-    action: {
+    method: {
       type: 'string',
       defaultsTo: ''
     },

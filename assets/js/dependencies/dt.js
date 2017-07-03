@@ -48,7 +48,7 @@ $(document).ready(function() {
       { "data": "component" },
       { "data": "session" },
       { "data": "level" },
-      { "data": "action" },
+      { "data": "method" },
       { "data": "message" },
       { "data": "location" },
       { "data": "data" },
