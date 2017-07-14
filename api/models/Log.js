@@ -39,7 +39,6 @@ module.exports = {
       type: 'string',
       defaultsTo: ''
     },
-    // in case of an API can be “http://81.171.11.179:8080/api/common/classrooms”
     location: {
       type: 'string',
       defaultsTo: ''
