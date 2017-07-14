@@ -8,3 +8,9 @@ a [Sails](http://sailsjs.org) application to log and visualise events from netwo
 * Datatables.net UI
 * MongoDB backend
 * REST interface
+
+
+## TODO
+
+* display warning level
+* ellipsis text in data || expand/collapse
