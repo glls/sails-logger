@@ -26,7 +26,7 @@ module.exports = {
     ...
     */
     level: {
-      type: 'integer',
+      type: 'number',
       defaultsTo: 4
     },
     //Message: error message

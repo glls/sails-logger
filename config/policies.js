@@ -20,7 +20,7 @@
 var auth = require('http-auth');
 
 var basic = auth.basic({
-  realm: "Mathisis Logging"
+  realm: "Application Logging"
 }, (username, password, callback) => {
   // Custom authentication.
   // Use callback(error) if you want to throw async error.

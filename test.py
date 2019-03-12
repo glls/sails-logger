@@ -2,7 +2,7 @@ import json, requests, random, string, datetime, time
 from random import randint
 from random_words import RandomWords
 
-url = 'http://localhost:1337/log/create'
+url = "http://localhost:1337/log/create"
 
 action_words = ['PUT', 'GET', 'POST', 'DELETE', 'UPDATE']
 component_words = ['Common API', 'Users API', 'Sensorial', 'PA Android v0.4', 'Graph', 'TEST']
@@ -25,6 +25,7 @@ for i in range(0, 100):
     }
 
     data = json.dumps(log)
+    print (data)
     r = requests.post(url, data=data, headers=headers)
     print (r.text)
 
