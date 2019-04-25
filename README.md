@@ -14,3 +14,5 @@ a [Sails](http://sailsjs.org) application to log and visualise events from netwo
 
 * display warning level
 * ellipsis text in data || expand/collapse
+* create a new sails 1.1 app and diff config/sources
+
